@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name testlib)(type KiCad)(uri "C:/Users/Andrew/Google Drive/School Stuff/Huskysat/testlib/testlib.pretty")(options "")(descr ""))
+)
