@@ -1,4 +1,4 @@
-19042154570499245
+19069777628410288
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51576,6 +51576,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 2
 2
 HS2_parts
+21-0041B_14
+MAX414ESD+, from SnapEDA (SOIC-14)
+
+0
+14
+14
+HS2_parts
 24-QFN_3x5
 
 
@@ -51590,9 +51597,30 @@ HS2_parts
 14
 14
 HS2_parts
+2477
+4AA Battery Holder, compatible with https://www.keyelco.com/product.cfm/product_id/1039
+
+0
+2
+2
+HS2_parts
+ADE-3G+
+
+
+0
+6
+6
+HS2_parts
 BWVS00606045
 
 
+0
+2
+2
+HS2_parts
+BatteryHolder_Keystone_2460_1xAA
+https://www.keyelco.com/product-pdf.cfm?p=1025
+AA battery cell holder
 0
 2
 2
@@ -51625,12 +51653,103 @@ GP731
 8
 8
 HS2_parts
+HMC667LP2ETR
+SnapEDA: SON65P250X250X80-7N
+
+0
+7
+7
+HS2_parts
+LM2940
+LM2940IMPX-5.0/NOPB, SnapEDA: SOT230P700X180-4N
+
+0
+4
+4
+HS2_parts
+LTC6992IS6-3-TRMPBF
+
+
+0
+6
+6
+HS2_parts
+MAX2681EUT+T
+SnapEDA: SOT95P280X145-6N
+
+0
+6
+6
+HS2_parts
+MAX2750AUA+
+SnapEDA: SOP65P490X110-8N
+
+0
+8
+8
+HS2_parts
+MSP430FR5994IPMR
+
+
+0
+64
+64
+HS2_parts
+MSP430FR5994IPN
+
+
+0
+80
+80
+HS2_parts
 PJ-075DH-SMT-TR
 
 
 0
 5
 5
+HS2_parts
+PV36W
+For trimmer pots. SnapEDA: TRIM_PV36W503C01B00
+
+0
+3
+3
+HS2_parts
+SE2565T-R
+SnapEDA: QFN50P300X300X80-17N
+
+0
+17
+17
+HS2_parts
+SMA_EDGE_MOUNT_132255
+
+
+0
+5
+3
+HS2_parts
+SOP50P490X95-10N
+
+
+0
+10
+10
+HS2_parts
+TPS24701DGKR
+
+
+0
+8
+8
+HS2_parts
+XR-2206
+SnapEDA: DIP254P762X432-16P
+
+0
+16
+16
 HS2_parts
 logo
 
