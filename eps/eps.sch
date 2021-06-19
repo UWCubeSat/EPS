@@ -21,6 +21,7 @@ F 0 "C48" H 17965 10546 50  0000 L CNN
 F 1 "10u" H 17965 10455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 17888 10350 50  0001 C CNN
 F 3 "~" H 17850 10500 50  0001 C CNN
+F 4 "C15850" H 17850 10500 50  0001 C CNN "Part"
 	1    17850 10500
 	1    0    0    -1  
 $EndComp
@@ -43,6 +44,7 @@ F 0 "C51" H 18265 10546 50  0000 L CNN
 F 1 "100n" H 18265 10455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 18188 10350 50  0001 C CNN
 F 3 "~" H 18150 10500 50  0001 C CNN
+F 4 "C49678" H 18150 10500 50  0001 C CNN "Part"
 	1    18150 10500
 	1    0    0    -1  
 $EndComp
@@ -83,6 +85,7 @@ F 0 "U22" H 19400 11431 50  0000 C CNN
 F 1 "INA219BxD" H 19400 11340 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 20200 10500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 19750 10750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/INA219BIDR/2426057" H 19400 10850 50  0001 C CNN "note"
 	1    19400 10850
 	-1   0    0    -1  
 $EndComp
@@ -110,6 +113,7 @@ F 0 "R27" H 12920 2596 50  0000 L CNN
 F 1 "3.3k" H 12920 2505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 12780 2550 50  0001 C CNN
 F 3 "~" H 12850 2550 50  0001 C CNN
+F 4 "C26010" H 12850 2550 50  0001 C CNN "Part"
 	1    12850 2550
 	1    0    0    -1  
 $EndComp
@@ -121,6 +125,7 @@ F 0 "R28" H 13320 2596 50  0000 L CNN
 F 1 "3.3k" H 13320 2505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 13180 2550 50  0001 C CNN
 F 3 "~" H 13250 2550 50  0001 C CNN
+F 4 "C26010" H 13250 2550 50  0001 C CNN "Part"
 	1    13250 2550
 	1    0    0    -1  
 $EndComp
@@ -147,6 +152,7 @@ F 0 "C41" H 16158 1454 50  0000 R CNN
 F 1 "10u" H 16158 1545 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 16250 1500 50  0001 C CNN
 F 3 "~" H 16250 1500 50  0001 C CNN
+F 4 "C15850" H 16250 1500 50  0001 C CNN "Part"
 	1    16250 1500
 	-1   0    0    1   
 $EndComp
@@ -158,6 +164,7 @@ F 0 "C38" H 15408 1554 50  0000 R CNN
 F 1 ".1u" H 15408 1645 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 15500 1600 50  0001 C CNN
 F 3 "~" H 15500 1600 50  0001 C CNN
+F 4 "C49678" H 15500 1600 50  0001 C CNN "Part"
 	1    15500 1600
 	-1   0    0    1   
 $EndComp
@@ -245,6 +252,7 @@ F 0 "C42" H 16158 2804 50  0000 R CNN
 F 1 "10u" H 16158 2895 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 16250 2850 50  0001 C CNN
 F 3 "~" H 16250 2850 50  0001 C CNN
+F 4 "C15850" H 16250 2850 50  0001 C CNN "Part"
 	1    16250 2850
 	-1   0    0    1   
 $EndComp
@@ -344,6 +352,7 @@ F 0 "J26" H 22180 8642 50  0000 L CNN
 F 1 "Conn_GPR" H 22180 8551 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 22100 8650 50  0001 C CNN
 F 3 "~" H 22100 8650 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/molex/0430450212/252502" H 22100 8650 50  0001 C CNN "note"
 	1    22100 8650
 	1    0    0    -1  
 $EndComp
@@ -359,13 +368,14 @@ F 3 "" H 21900 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HS2_Parts:TPS24701DGKR U19
+L eps-rescue:TPS24701DGKR-HS2_Parts U19
 U 1 1 60875EB6
 P 17400 12250
 F 0 "U19" H 18700 12637 60  0000 C CNN
 F 1 "TPS24701DGKR" H 18700 12531 60  0000 C CNN
 F 2 "HS2_parts:TPS24701DGKR" H 18700 12490 60  0001 C CNN
 F 3 "" H 17400 12250 60  0000 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TPS24701DGKR/2650735" H 17400 12250 50  0001 C CNN "note"
 	1    17400 12250
 	1    0    0    -1  
 $EndComp
@@ -378,6 +388,7 @@ F 0 "R48" V 20857 12200 50  0000 C CNN
 F 1 "10" V 20766 12200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 20580 12200 50  0001 C CNN
 F 3 "~" H 20650 12200 50  0001 C CNN
+F 4 "C17415" H 20650 12200 50  0001 C CNN "Part"
 	1    20650 12200
 	1    0    0    -1  
 $EndComp
@@ -389,6 +400,7 @@ F 0 "Q11" H 20855 11896 50  0000 L CNN
 F 1 "CSD16403Q5A" H 20855 11805 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 20850 11775 50  0001 L CIN
 F 3 "http://www.ti.com/lit/gpn/csd16403q5a" V 20650 11850 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/CSD16403Q5A/2038304?s=N4IgTCBcDaIMYGcAmBGAbAFgAwGYQF0BfIA" H 20650 11850 50  0001 C CNN "note"
 	1    20650 11850
 	0    -1   -1   0   
 $EndComp
@@ -400,6 +412,7 @@ F 0 "R42" V 17043 11900 50  0000 C CNN
 F 1 "10k" V 17134 11900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 17180 11900 50  0001 C CNN
 F 3 "~" H 17250 11900 50  0001 C CNN
+F 4 "C17414" H 17250 11900 50  0001 C CNN "Part"
 	1    17250 11900
 	1    0    0    -1  
 $EndComp
@@ -448,6 +461,7 @@ F 0 "R45" V 20357 11750 50  0000 C CNN
 F 1 "2m" V 20266 11750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 20080 11750 50  0001 C CNN
 F 3 "~" H 20150 11750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/PMR10EZPFV2L00/2080250" H 20150 11750 50  0001 C CNN "note"
 	1    20150 11750
 	0    -1   -1   0   
 $EndComp
@@ -477,9 +491,10 @@ L Device:C C45
 U 1 1 60DCE9A6
 P 17050 12700
 F 0 "C45" H 17165 12746 50  0000 L CNN
-F 1 "56n" H 17165 12655 50  0000 L CNN
+F 1 "68n" H 17165 12655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 17088 12550 50  0001 C CNN
 F 3 "~" H 17050 12700 50  0001 C CNN
+F 4 "C1756" H 17050 12700 50  0001 C CNN "Part"
 	1    17050 12700
 	1    0    0    -1  
 $EndComp
@@ -532,6 +547,7 @@ F 0 "J27" H 22230 11742 50  0000 L CNN
 F 1 "Conn_Power" H 22230 11651 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 22150 11750 50  0001 C CNN
 F 3 "~" H 22150 11750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/molex/0430450212/252502" H 22150 11750 50  0001 C CNN "note"
 	1    22150 11750
 	1    0    0    -1  
 $EndComp
@@ -576,6 +592,7 @@ F 0 "U21" H 19300 8481 50  0000 C CNN
 F 1 "INA219BxD" H 19300 8390 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 20100 7550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 19650 7800 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/INA219BIDR/2426057" H 19300 7900 50  0001 C CNN "note"
 	1    19300 7900
 	-1   0    0    -1  
 $EndComp
@@ -617,6 +634,7 @@ F 0 "C50" H 18165 7596 50  0000 L CNN
 F 1 "100n" H 18165 7505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 18088 7400 50  0001 C CNN
 F 3 "~" H 18050 7550 50  0001 C CNN
+F 4 "C49678" H 18050 7550 50  0001 C CNN "Part"
 	1    18050 7550
 	1    0    0    -1  
 $EndComp
@@ -640,18 +658,20 @@ F 0 "C47" H 17865 7596 50  0000 L CNN
 F 1 "10u" H 17865 7505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 17788 7400 50  0001 C CNN
 F 3 "~" H 17750 7550 50  0001 C CNN
+F 4 "C15850" H 17750 7550 50  0001 C CNN "Part"
 	1    17750 7550
 	1    0    0    -1  
 $EndComp
 Connection ~ 17750 7400
 $Comp
-L HS2_Parts:TPS24701DGKR U18
+L eps-rescue:TPS24701DGKR-HS2_Parts U18
 U 1 1 6132D17C
 P 17350 9150
 F 0 "U18" H 18650 9537 60  0000 C CNN
 F 1 "TPS24701DGKR" H 18650 9431 60  0000 C CNN
 F 2 "HS2_parts:TPS24701DGKR" H 18650 9390 60  0001 C CNN
 F 3 "" H 17350 9150 60  0000 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TPS24701DGKR/2650735" H 17350 9150 50  0001 C CNN "note"
 	1    17350 9150
 	1    0    0    -1  
 $EndComp
@@ -663,6 +683,7 @@ F 0 "R47" V 20807 9100 50  0000 C CNN
 F 1 "10" V 20716 9100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 20530 9100 50  0001 C CNN
 F 3 "~" H 20600 9100 50  0001 C CNN
+F 4 "C17415" H 20600 9100 50  0001 C CNN "Part"
 	1    20600 9100
 	1    0    0    -1  
 $EndComp
@@ -674,6 +695,7 @@ F 0 "Q10" H 20805 8796 50  0000 L CNN
 F 1 "CSD16403Q5A" H 20805 8705 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 20800 8675 50  0001 L CIN
 F 3 "http://www.ti.com/lit/gpn/csd16403q5a" V 20600 8750 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/CSD16403Q5A/2038304?s=N4IgTCBcDaIMYGcAmBGAbAFgAwGYQF0BfIA" H 20600 8750 50  0001 C CNN "note"
 	1    20600 8750
 	0    -1   -1   0   
 $EndComp
@@ -685,6 +707,7 @@ F 0 "R41" V 16993 8800 50  0000 C CNN
 F 1 "10k" V 17084 8800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 17130 8800 50  0001 C CNN
 F 3 "~" H 17200 8800 50  0001 C CNN
+F 4 "C17414" H 17200 8800 50  0001 C CNN "Part"
 	1    17200 8800
 	1    0    0    -1  
 $EndComp
@@ -733,6 +756,7 @@ F 0 "R44" V 20307 8650 50  0000 C CNN
 F 1 "2m" V 20216 8650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 20030 8650 50  0001 C CNN
 F 3 "~" H 20100 8650 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/PMR10EZPFV2L00/2080250" H 20100 8650 50  0001 C CNN "note"
 	1    20100 8650
 	0    -1   -1   0   
 $EndComp
@@ -760,9 +784,10 @@ L Device:C C44
 U 1 1 6132D1BA
 P 17000 9600
 F 0 "C44" H 17115 9646 50  0000 L CNN
-F 1 "56n" H 17115 9555 50  0000 L CNN
+F 1 "68n" H 17115 9555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 17038 9450 50  0001 C CNN
 F 3 "~" H 17000 9600 50  0001 C CNN
+F 4 "C1756" H 17000 9600 50  0001 C CNN "Part"
 	1    17000 9600
 	1    0    0    -1  
 $EndComp
@@ -818,6 +843,7 @@ F 0 "J21" H 21980 5842 50  0000 L CNN
 F 1 "Conn_Prop" H 21980 5751 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 21900 5850 50  0001 C CNN
 F 3 "~" H 21900 5850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/molex/0430450212/252502" H 21900 5850 50  0001 C CNN "note"
 	1    21900 5850
 	1    0    0    -1  
 $EndComp
@@ -858,6 +884,7 @@ F 0 "U20" H 19200 5681 50  0000 C CNN
 F 1 "INA219BxD" H 19200 5590 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 20000 4750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 19550 5000 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/INA219BIDR/2426057" H 19200 5100 50  0001 C CNN "note"
 	1    19200 5100
 	-1   0    0    -1  
 $EndComp
@@ -899,6 +926,7 @@ F 0 "C49" H 18065 4796 50  0000 L CNN
 F 1 "100n" H 18065 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 17988 4600 50  0001 C CNN
 F 3 "~" H 17950 4750 50  0001 C CNN
+F 4 "C49678" H 17950 4750 50  0001 C CNN "Part"
 	1    17950 4750
 	1    0    0    -1  
 $EndComp
@@ -922,18 +950,20 @@ F 0 "C46" H 17765 4796 50  0000 L CNN
 F 1 "10u" H 17765 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 17688 4600 50  0001 C CNN
 F 3 "~" H 17650 4750 50  0001 C CNN
+F 4 "C15850" H 17650 4750 50  0001 C CNN "Part"
 	1    17650 4750
 	1    0    0    -1  
 $EndComp
 Connection ~ 17650 4600
 $Comp
-L HS2_Parts:TPS24701DGKR U17
+L eps-rescue:TPS24701DGKR-HS2_Parts U17
 U 1 1 61608FEC
 P 17250 6350
 F 0 "U17" H 18550 6737 60  0000 C CNN
 F 1 "TPS24701DGKR" H 18550 6631 60  0000 C CNN
 F 2 "HS2_parts:TPS24701DGKR" H 18550 6590 60  0001 C CNN
 F 3 "" H 17250 6350 60  0000 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TPS24701DGKR/2650735" H 17250 6350 50  0001 C CNN "note"
 	1    17250 6350
 	1    0    0    -1  
 $EndComp
@@ -945,6 +975,7 @@ F 0 "R46" V 20707 6300 50  0000 C CNN
 F 1 "10" V 20616 6300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 20430 6300 50  0001 C CNN
 F 3 "~" H 20500 6300 50  0001 C CNN
+F 4 "C17415" H 20500 6300 50  0001 C CNN "Part"
 	1    20500 6300
 	1    0    0    -1  
 $EndComp
@@ -956,6 +987,7 @@ F 0 "Q9" H 20705 5996 50  0000 L CNN
 F 1 "CSD16403Q5A" H 20705 5905 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 20700 5875 50  0001 L CIN
 F 3 "http://www.ti.com/lit/gpn/csd16403q5a" V 20500 5950 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/CSD16403Q5A/2038304?s=N4IgTCBcDaIMYGcAmBGAbAFgAwGYQF0BfIA" H 20500 5950 50  0001 C CNN "note"
 	1    20500 5950
 	0    -1   -1   0   
 $EndComp
@@ -967,6 +999,7 @@ F 0 "R40" V 16893 6000 50  0000 C CNN
 F 1 "10k" V 16984 6000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 17030 6000 50  0001 C CNN
 F 3 "~" H 17100 6000 50  0001 C CNN
+F 4 "C17414" H 17100 6000 50  0001 C CNN "Part"
 	1    17100 6000
 	1    0    0    -1  
 $EndComp
@@ -1015,6 +1048,7 @@ F 0 "R43" V 20207 5850 50  0000 C CNN
 F 1 "2m" V 20116 5850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 19930 5850 50  0001 C CNN
 F 3 "~" H 20000 5850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/PMR10EZPFV2L00/2080250" H 20000 5850 50  0001 C CNN "note"
 	1    20000 5850
 	0    -1   -1   0   
 $EndComp
@@ -1042,9 +1076,10 @@ L Device:C C43
 U 1 1 61609029
 P 16900 6800
 F 0 "C43" H 17015 6846 50  0000 L CNN
-F 1 "56n" H 17015 6755 50  0000 L CNN
+F 1 "68n" H 17015 6755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 16938 6650 50  0001 C CNN
 F 3 "~" H 16900 6800 50  0001 C CNN
+F 4 "C1756" H 16900 6800 50  0001 C CNN "Part"
 	1    16900 6800
 	1    0    0    -1  
 $EndComp
@@ -1111,6 +1146,7 @@ F 0 "J16" H 16230 14092 50  0000 L CNN
 F 1 "Conn_Comm" H 16230 14001 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 16150 14100 50  0001 C CNN
 F 3 "~" H 16150 14100 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/molex/0430450212/252502" H 16150 14100 50  0001 C CNN "note"
 	1    16150 14100
 	1    0    0    -1  
 $EndComp
@@ -1164,6 +1200,7 @@ F 0 "C25" H 12215 13046 50  0000 L CNN
 F 1 "100n" H 12215 12955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 12138 12850 50  0001 C CNN
 F 3 "~" H 12100 13000 50  0001 C CNN
+F 4 "C49678" H 12100 13000 50  0001 C CNN "Part"
 	1    12100 13000
 	1    0    0    -1  
 $EndComp
@@ -1176,18 +1213,20 @@ F 0 "C20" H 11915 13046 50  0000 L CNN
 F 1 "10u" H 11915 12955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 11838 12850 50  0001 C CNN
 F 3 "~" H 11800 13000 50  0001 C CNN
+F 4 "C15850" H 11800 13000 50  0001 C CNN "Part"
 	1    11800 13000
 	1    0    0    -1  
 $EndComp
 Connection ~ 11800 12850
 $Comp
-L HS2_Parts:TPS24701DGKR U10
+L eps-rescue:TPS24701DGKR-HS2_Parts U10
 U 1 1 618A75CD
 P 11400 14600
 F 0 "U10" H 12700 14987 60  0000 C CNN
 F 1 "TPS24701DGKR" H 12700 14881 60  0000 C CNN
 F 2 "HS2_parts:TPS24701DGKR" H 12700 14840 60  0001 C CNN
 F 3 "" H 11400 14600 60  0000 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TPS24701DGKR/2650735" H 11400 14600 50  0001 C CNN "note"
 	1    11400 14600
 	1    0    0    -1  
 $EndComp
@@ -1199,6 +1238,7 @@ F 0 "R36" V 14857 14550 50  0000 C CNN
 F 1 "10" V 14766 14550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 14580 14550 50  0001 C CNN
 F 3 "~" H 14650 14550 50  0001 C CNN
+F 4 "C17415" H 14650 14550 50  0001 C CNN "Part"
 	1    14650 14550
 	1    0    0    -1  
 $EndComp
@@ -1210,6 +1250,7 @@ F 0 "Q8" H 14855 14246 50  0000 L CNN
 F 1 "CSD16403Q5A" H 14855 14155 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 14850 14125 50  0001 L CIN
 F 3 "http://www.ti.com/lit/gpn/csd16403q5a" V 14650 14200 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/CSD16403Q5A/2038304?s=N4IgTCBcDaIMYGcAmBGAbAFgAwGYQF0BfIA" H 14650 14200 50  0001 C CNN "note"
 	1    14650 14200
 	0    -1   -1   0   
 $EndComp
@@ -1221,6 +1262,7 @@ F 0 "R26" V 11043 14250 50  0000 C CNN
 F 1 "10k" V 11134 14250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 11180 14250 50  0001 C CNN
 F 3 "~" H 11250 14250 50  0001 C CNN
+F 4 "C17414" H 11250 14250 50  0001 C CNN "Part"
 	1    11250 14250
 	1    0    0    -1  
 $EndComp
@@ -1269,6 +1311,7 @@ F 0 "R32" V 14357 14100 50  0000 C CNN
 F 1 "2m" V 14266 14100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 14080 14100 50  0001 C CNN
 F 3 "~" H 14150 14100 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/PMR10EZPFV2L00/2080250" H 14150 14100 50  0001 C CNN "note"
 	1    14150 14100
 	0    -1   -1   0   
 $EndComp
@@ -1296,9 +1339,10 @@ L Device:C C16
 U 1 1 618A760A
 P 11050 15050
 F 0 "C16" H 11165 15096 50  0000 L CNN
-F 1 "56n" H 11165 15005 50  0000 L CNN
+F 1 "68n" H 11165 15005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 11088 14900 50  0001 C CNN
 F 3 "~" H 11050 15050 50  0001 C CNN
+F 4 "C1756" H 11050 15050 50  0001 C CNN "Part"
 	1    11050 15050
 	1    0    0    -1  
 $EndComp
@@ -1383,6 +1427,7 @@ F 0 "U14" H 13350 13931 50  0000 C CNN
 F 1 "INA219BxD" H 13350 13840 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 14150 13000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 13700 13250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/INA219BIDR/2426057" H 13350 13350 50  0001 C CNN "note"
 	1    13350 13350
 	-1   0    0    -1  
 $EndComp
@@ -1412,6 +1457,7 @@ F 0 "J15" H 16230 11242 50  0000 L CNN
 F 1 "Conn_Deploy" H 16230 11151 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 16150 11250 50  0001 C CNN
 F 3 "~" H 16150 11250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/molex/0430450212/252502" H 16150 11250 50  0001 C CNN "note"
 	1    16150 11250
 	1    0    0    -1  
 $EndComp
@@ -1465,6 +1511,7 @@ F 0 "C24" H 12215 10196 50  0000 L CNN
 F 1 "100n" H 12215 10105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 12138 10000 50  0001 C CNN
 F 3 "~" H 12100 10150 50  0001 C CNN
+F 4 "C49678" H 12100 10150 50  0001 C CNN "Part"
 	1    12100 10150
 	1    0    0    -1  
 $EndComp
@@ -1477,18 +1524,20 @@ F 0 "C19" H 11915 10196 50  0000 L CNN
 F 1 "10u" H 11915 10105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 11838 10000 50  0001 C CNN
 F 3 "~" H 11800 10150 50  0001 C CNN
+F 4 "C15850" H 11800 10150 50  0001 C CNN "Part"
 	1    11800 10150
 	1    0    0    -1  
 $EndComp
 Connection ~ 11800 10000
 $Comp
-L HS2_Parts:TPS24701DGKR U9
+L eps-rescue:TPS24701DGKR-HS2_Parts U9
 U 1 1 61BE4EFE
 P 11400 11750
 F 0 "U9" H 12700 12137 60  0000 C CNN
 F 1 "TPS24701DGKR" H 12700 12031 60  0000 C CNN
 F 2 "HS2_parts:TPS24701DGKR" H 12700 11990 60  0001 C CNN
 F 3 "" H 11400 11750 60  0000 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TPS24701DGKR/2650735" H 11400 11750 50  0001 C CNN "note"
 	1    11400 11750
 	1    0    0    -1  
 $EndComp
@@ -1500,6 +1549,7 @@ F 0 "R35" V 14857 11700 50  0000 C CNN
 F 1 "10" V 14766 11700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 14580 11700 50  0001 C CNN
 F 3 "~" H 14650 11700 50  0001 C CNN
+F 4 "C17415" H 14650 11700 50  0001 C CNN "Part"
 	1    14650 11700
 	1    0    0    -1  
 $EndComp
@@ -1511,6 +1561,7 @@ F 0 "Q7" H 14855 11396 50  0000 L CNN
 F 1 "CSD16403Q5A" H 14855 11305 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 14850 11275 50  0001 L CIN
 F 3 "http://www.ti.com/lit/gpn/csd16403q5a" V 14650 11350 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/CSD16403Q5A/2038304?s=N4IgTCBcDaIMYGcAmBGAbAFgAwGYQF0BfIA" H 14650 11350 50  0001 C CNN "note"
 	1    14650 11350
 	0    -1   -1   0   
 $EndComp
@@ -1522,6 +1573,7 @@ F 0 "R25" V 11043 11400 50  0000 C CNN
 F 1 "10k" V 11134 11400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 11180 11400 50  0001 C CNN
 F 3 "~" H 11250 11400 50  0001 C CNN
+F 4 "C17414" H 11250 11400 50  0001 C CNN "Part"
 	1    11250 11400
 	1    0    0    -1  
 $EndComp
@@ -1570,6 +1622,7 @@ F 0 "R31" V 14357 11250 50  0000 C CNN
 F 1 "2m" V 14266 11250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 14080 11250 50  0001 C CNN
 F 3 "~" H 14150 11250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/PMR10EZPFV2L00/2080250" H 14150 11250 50  0001 C CNN "note"
 	1    14150 11250
 	0    -1   -1   0   
 $EndComp
@@ -1597,9 +1650,10 @@ L Device:C C15
 U 1 1 61BE4F3B
 P 11050 12200
 F 0 "C15" H 11165 12246 50  0000 L CNN
-F 1 "56n" H 11165 12155 50  0000 L CNN
+F 1 "68n" H 11165 12155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 11088 12050 50  0001 C CNN
 F 3 "~" H 11050 12200 50  0001 C CNN
+F 4 "C1756" H 11050 12200 50  0001 C CNN "Part"
 	1    11050 12200
 	1    0    0    -1  
 $EndComp
@@ -1681,6 +1735,7 @@ F 0 "U13" H 13350 11081 50  0000 C CNN
 F 1 "INA219BxD" H 13350 10990 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 14150 10150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 13700 10400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/INA219BIDR/2426057" H 13350 10500 50  0001 C CNN "note"
 	1    13350 10500
 	-1   0    0    -1  
 $EndComp
@@ -1717,6 +1772,7 @@ F 0 "J13" H 16030 5842 50  0000 L CNN
 F 1 "Conn_Star" H 16030 5751 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 15950 5850 50  0001 C CNN
 F 3 "~" H 15950 5850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/molex/0430450212/252502" H 15950 5850 50  0001 C CNN "note"
 	1    15950 5850
 	1    0    0    -1  
 $EndComp
@@ -1770,6 +1826,7 @@ F 0 "C22" H 12115 4796 50  0000 L CNN
 F 1 "100n" H 12115 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 12038 4600 50  0001 C CNN
 F 3 "~" H 12000 4750 50  0001 C CNN
+F 4 "C49678" H 12000 4750 50  0001 C CNN "Part"
 	1    12000 4750
 	1    0    0    -1  
 $EndComp
@@ -1782,18 +1839,20 @@ F 0 "C17" H 11815 4796 50  0000 L CNN
 F 1 "10u" H 11815 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 11738 4600 50  0001 C CNN
 F 3 "~" H 11700 4750 50  0001 C CNN
+F 4 "C15850" H 11700 4750 50  0001 C CNN "Part"
 	1    11700 4750
 	1    0    0    -1  
 $EndComp
 Connection ~ 11700 4600
 $Comp
-L HS2_Parts:TPS24701DGKR U7
+L eps-rescue:TPS24701DGKR-HS2_Parts U7
 U 1 1 61C9941E
 P 11300 6350
 F 0 "U7" H 12600 6737 60  0000 C CNN
 F 1 "TPS24701DGKR" H 12600 6631 60  0000 C CNN
 F 2 "HS2_parts:TPS24701DGKR" H 12600 6590 60  0001 C CNN
 F 3 "" H 11300 6350 60  0000 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TPS24701DGKR/2650735" H 11300 6350 50  0001 C CNN "note"
 	1    11300 6350
 	1    0    0    -1  
 $EndComp
@@ -1805,6 +1864,7 @@ F 0 "R33" V 14757 6300 50  0000 C CNN
 F 1 "10" V 14666 6300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 14480 6300 50  0001 C CNN
 F 3 "~" H 14550 6300 50  0001 C CNN
+F 4 "C17415" H 14550 6300 50  0001 C CNN "Part"
 	1    14550 6300
 	1    0    0    -1  
 $EndComp
@@ -1816,6 +1876,7 @@ F 0 "Q5" H 14755 5996 50  0000 L CNN
 F 1 "CSD16403Q5A" H 14755 5905 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 14750 5875 50  0001 L CIN
 F 3 "http://www.ti.com/lit/gpn/csd16403q5a" V 14550 5950 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/CSD16403Q5A/2038304?s=N4IgTCBcDaIMYGcAmBGAbAFgAwGYQF0BfIA" H 14550 5950 50  0001 C CNN "note"
 	1    14550 5950
 	0    -1   -1   0   
 $EndComp
@@ -1827,6 +1888,7 @@ F 0 "R23" V 10943 6000 50  0000 C CNN
 F 1 "10k" V 11034 6000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 11080 6000 50  0001 C CNN
 F 3 "~" H 11150 6000 50  0001 C CNN
+F 4 "C17414" H 11150 6000 50  0001 C CNN "Part"
 	1    11150 6000
 	1    0    0    -1  
 $EndComp
@@ -1875,6 +1937,7 @@ F 0 "R29" V 14257 5850 50  0000 C CNN
 F 1 "2m" V 14166 5850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 13980 5850 50  0001 C CNN
 F 3 "~" H 14050 5850 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/PMR10EZPFV2L00/2080250" H 14050 5850 50  0001 C CNN "note"
 	1    14050 5850
 	0    -1   -1   0   
 $EndComp
@@ -1902,9 +1965,10 @@ L Device:C C13
 U 1 1 61C9945B
 P 10950 6800
 F 0 "C13" H 11065 6846 50  0000 L CNN
-F 1 "56n" H 11065 6755 50  0000 L CNN
+F 1 "68n" H 11065 6755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 10988 6650 50  0001 C CNN
 F 3 "~" H 10950 6800 50  0001 C CNN
+F 4 "C1756" H 10950 6800 50  0001 C CNN "Part"
 	1    10950 6800
 	1    0    0    -1  
 $EndComp
@@ -1992,6 +2056,7 @@ F 0 "U11" H 13250 5681 50  0000 C CNN
 F 1 "INA219BxD" H 13250 5590 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 14050 4750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 13600 5000 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/INA219BIDR/2426057" H 13250 5100 50  0001 C CNN "note"
 	1    13250 5100
 	-1   0    0    -1  
 $EndComp
@@ -2008,6 +2073,7 @@ F 0 "J14" H 16080 8592 50  0000 L CNN
 F 1 "Conn_Wheel" H 16080 8501 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 16000 8600 50  0001 C CNN
 F 3 "~" H 16000 8600 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/molex/0430450212/252502" H 16000 8600 50  0001 C CNN "note"
 	1    16000 8600
 	1    0    0    -1  
 $EndComp
@@ -2061,6 +2127,7 @@ F 0 "C23" H 12165 7546 50  0000 L CNN
 F 1 "100n" H 12165 7455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 12088 7350 50  0001 C CNN
 F 3 "~" H 12050 7500 50  0001 C CNN
+F 4 "C49678" H 12050 7500 50  0001 C CNN "Part"
 	1    12050 7500
 	1    0    0    -1  
 $EndComp
@@ -2073,18 +2140,20 @@ F 0 "C18" H 11865 7546 50  0000 L CNN
 F 1 "10u" H 11865 7455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 11788 7350 50  0001 C CNN
 F 3 "~" H 11750 7500 50  0001 C CNN
+F 4 "C15850" H 11750 7500 50  0001 C CNN "Part"
 	1    11750 7500
 	1    0    0    -1  
 $EndComp
 Connection ~ 11750 7350
 $Comp
-L HS2_Parts:TPS24701DGKR U8
+L eps-rescue:TPS24701DGKR-HS2_Parts U8
 U 1 1 61F25495
 P 11350 9100
 F 0 "U8" H 12650 9487 60  0000 C CNN
 F 1 "TPS24701DGKR" H 12650 9381 60  0000 C CNN
 F 2 "HS2_parts:TPS24701DGKR" H 12650 9340 60  0001 C CNN
 F 3 "" H 11350 9100 60  0000 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TPS24701DGKR/2650735" H 11350 9100 50  0001 C CNN "note"
 	1    11350 9100
 	1    0    0    -1  
 $EndComp
@@ -2096,6 +2165,7 @@ F 0 "R34" V 14807 9050 50  0000 C CNN
 F 1 "10" V 14716 9050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 14530 9050 50  0001 C CNN
 F 3 "~" H 14600 9050 50  0001 C CNN
+F 4 "C17415" H 14600 9050 50  0001 C CNN "Part"
 	1    14600 9050
 	1    0    0    -1  
 $EndComp
@@ -2107,6 +2177,7 @@ F 0 "Q6" H 14805 8746 50  0000 L CNN
 F 1 "CSD16403Q5A" H 14805 8655 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 14800 8625 50  0001 L CIN
 F 3 "http://www.ti.com/lit/gpn/csd16403q5a" V 14600 8700 50  0001 L CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/CSD16403Q5A/2038304?s=N4IgTCBcDaIMYGcAmBGAbAFgAwGYQF0BfIA" H 14600 8700 50  0001 C CNN "note"
 	1    14600 8700
 	0    -1   -1   0   
 $EndComp
@@ -2118,6 +2189,7 @@ F 0 "R24" V 10993 8750 50  0000 C CNN
 F 1 "10k" V 11084 8750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 11130 8750 50  0001 C CNN
 F 3 "~" H 11200 8750 50  0001 C CNN
+F 4 "C17414" H 11200 8750 50  0001 C CNN "Part"
 	1    11200 8750
 	1    0    0    -1  
 $EndComp
@@ -2166,6 +2238,7 @@ F 0 "R30" V 14307 8600 50  0000 C CNN
 F 1 "2m" V 14216 8600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 14030 8600 50  0001 C CNN
 F 3 "~" H 14100 8600 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/PMR10EZPFV2L00/2080250" H 14100 8600 50  0001 C CNN "note"
 	1    14100 8600
 	0    -1   -1   0   
 $EndComp
@@ -2193,9 +2266,10 @@ L Device:C C14
 U 1 1 61F254D2
 P 11000 9550
 F 0 "C14" H 11115 9596 50  0000 L CNN
-F 1 "56n" H 11115 9505 50  0000 L CNN
+F 1 "68n" H 11115 9505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 11038 9400 50  0001 C CNN
 F 3 "~" H 11000 9550 50  0001 C CNN
+F 4 "C1756" H 11000 9550 50  0001 C CNN "Part"
 	1    11000 9550
 	1    0    0    -1  
 $EndComp
@@ -2283,6 +2357,7 @@ F 0 "U12" H 13300 8431 50  0000 C CNN
 F 1 "INA219BxD" H 13300 8340 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 14100 7500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 13650 7750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/INA219BIDR/2426057" H 13300 7850 50  0001 C CNN "note"
 	1    13300 7850
 	-1   0    0    -1  
 $EndComp
@@ -2305,6 +2380,7 @@ F 0 "U4" H 5350 14881 50  0000 C CNN
 F 1 "TCA9535DBR" H 5350 14790 50  0000 C CNN
 F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 6400 12600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9535.pdf" H 4850 14500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TCA9535DBR/6156202" H 5350 13600 50  0001 C CNN "note"
 	1    5350 13600
 	1    0    0    -1  
 $EndComp
@@ -2316,6 +2392,7 @@ F 0 "U6" H 8350 14881 50  0000 C CNN
 F 1 "TCA9535DBR" H 8350 14790 50  0000 C CNN
 F 2 "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm" H 9400 12600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tca9535.pdf" H 7850 14500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/TCA9535DBR/6156202" H 8350 13600 50  0001 C CNN "note"
 	1    8350 13600
 	1    0    0    -1  
 $EndComp
@@ -2451,6 +2528,7 @@ F 0 "R17" H 7220 12896 50  0000 L CNN
 F 1 "10k" H 7220 12805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7080 12850 50  0001 C CNN
 F 3 "~" H 7150 12850 50  0001 C CNN
+F 4 "C17414" H 7150 12850 50  0001 C CNN "Part"
 	1    7150 12850
 	1    0    0    -1  
 $EndComp
@@ -2482,6 +2560,7 @@ F 0 "U16" H 15950 2892 50  0000 C CNN
 F 1 "LM2936-3.3" H 15950 2801 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 15950 2875 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2936.pdf" H 15950 2600 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM2936MP-3-3-NOPB/482959" H 15950 2650 50  0001 C CNN "note"
 	1    15950 2650
 	1    0    0    -1  
 $EndComp
@@ -2493,6 +2572,7 @@ F 0 "C36" H 15358 2804 50  0000 R CNN
 F 1 ".1u" H 15358 2895 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 15450 2850 50  0001 C CNN
 F 3 "~" H 15450 2850 50  0001 C CNN
+F 4 "C49678" H 15450 2850 50  0001 C CNN "Part"
 	1    15450 2850
 	-1   0    0    1   
 $EndComp
@@ -2541,6 +2621,7 @@ F 0 "U15" H 15950 1642 50  0000 C CNN
 F 1 "LM2936-3.3" H 15950 1551 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 15950 1625 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2936.pdf" H 15950 1350 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/LM2936MP-3-3-NOPB/482959" H 15950 1400 50  0001 C CNN "note"
 	1    15950 1400
 	1    0    0    -1  
 $EndComp
@@ -2555,6 +2636,7 @@ F 0 "J12" H 14050 3417 50  0000 C CNN
 F 1 "Conn_I2C" H 14050 3326 50  0000 C CNN
 F 2 "Connector_JST:JST_PHD_B8B-PHDSS_2x04_P2.00mm_Vertical" H 14000 3100 50  0001 C CNN
 F 3 "~" H 14000 3100 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045" H 14000 3100 50  0001 C CNN "note"
 	1    14000 3100
 	1    0    0    -1  
 $EndComp
@@ -2577,6 +2659,7 @@ F 0 "C26" H 12391 1546 50  0000 L CNN
 F 1 "22u" H 12391 1455 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 12300 1500 50  0001 C CNN
 F 3 "~" H 12300 1500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ECE-A1HKA220I/6109484" H 12300 1500 50  0001 C CNN "note"
 	1    12300 1500
 	1    0    0    -1  
 $EndComp
@@ -2588,6 +2671,7 @@ F 0 "C21" H 11942 1546 50  0000 L CNN
 F 1 "4.7u" H 11942 1455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 11850 1500 50  0001 C CNN
 F 3 "~" H 11850 1500 50  0001 C CNN
+F 4 "C1779" H 11850 1500 50  0001 C CNN "Part"
 	1    11850 1500
 	1    0    0    -1  
 $EndComp
@@ -2632,6 +2716,7 @@ F 0 "R16" H 7170 14096 50  0000 L CNN
 F 1 "3.3k" H 7170 14005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7030 14050 50  0001 C CNN
 F 3 "~" H 7100 14050 50  0001 C CNN
+F 4 "C26010" H 7100 14050 50  0001 C CNN "Part"
 	1    7100 14050
 	1    0    0    -1  
 $EndComp
@@ -2645,6 +2730,7 @@ F 0 "C27" H 13715 5796 50  0000 L CNN
 F 1 "0.1u" H 13715 5705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 13638 5600 50  0001 C CNN
 F 3 "~" H 13600 5750 50  0001 C CNN
+F 4 "C49678" H 13600 5750 50  0001 C CNN "Part"
 	1    13600 5750
 	1    0    0    -1  
 $EndComp
@@ -2670,6 +2756,7 @@ F 0 "C28" H 13765 8546 50  0000 L CNN
 F 1 "0.1u" H 13765 8455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 13688 8350 50  0001 C CNN
 F 3 "~" H 13650 8500 50  0001 C CNN
+F 4 "C49678" H 13650 8500 50  0001 C CNN "Part"
 	1    13650 8500
 	1    0    0    -1  
 $EndComp
@@ -2694,6 +2781,7 @@ F 0 "C29" H 13815 11196 50  0000 L CNN
 F 1 "0.1u" H 13815 11105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 13738 11000 50  0001 C CNN
 F 3 "~" H 13700 11150 50  0001 C CNN
+F 4 "C49678" H 13700 11150 50  0001 C CNN "Part"
 	1    13700 11150
 	1    0    0    -1  
 $EndComp
@@ -2718,6 +2806,7 @@ F 0 "C30" H 13815 14046 50  0000 L CNN
 F 1 "0.1u" H 13815 13955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 13738 13850 50  0001 C CNN
 F 3 "~" H 13700 14000 50  0001 C CNN
+F 4 "C49678" H 13700 14000 50  0001 C CNN "Part"
 	1    13700 14000
 	1    0    0    -1  
 $EndComp
@@ -2742,6 +2831,7 @@ F 0 "C52" H 19665 5796 50  0000 L CNN
 F 1 "0.1u" H 19665 5705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 19588 5600 50  0001 C CNN
 F 3 "~" H 19550 5750 50  0001 C CNN
+F 4 "C49678" H 19550 5750 50  0001 C CNN "Part"
 	1    19550 5750
 	1    0    0    -1  
 $EndComp
@@ -2766,6 +2856,7 @@ F 0 "C53" H 19765 8596 50  0000 L CNN
 F 1 "0.1u" H 19765 8505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 19688 8400 50  0001 C CNN
 F 3 "~" H 19650 8550 50  0001 C CNN
+F 4 "C49678" H 19650 8550 50  0001 C CNN "Part"
 	1    19650 8550
 	1    0    0    -1  
 $EndComp
@@ -2790,6 +2881,7 @@ F 0 "C54" H 19815 11696 50  0000 L CNN
 F 1 "0.1u" H 19815 11605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 19738 11500 50  0001 C CNN
 F 3 "~" H 19700 11650 50  0001 C CNN
+F 4 "C49678" H 19700 11650 50  0001 C CNN "Part"
 	1    19700 11650
 	1    0    0    -1  
 $EndComp
@@ -2812,8 +2904,9 @@ U 1 1 60AF1A92
 P 15400 6000
 F 0 "C35" H 15515 6046 50  0000 L CNN
 F 1 "470u" H 15515 5955 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 15438 5850 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 15438 5850 50  0001 C CNN
 F 3 "~" H 15400 6000 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/nichicon/UFW1C471MPD/1964109" H 15400 6000 50  0001 C CNN "note"
 	1    15400 6000
 	1    0    0    -1  
 $EndComp
@@ -2836,6 +2929,7 @@ F 0 "R19" V 10393 6850 50  0000 C CNN
 F 1 "10k" V 10484 6850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10530 6850 50  0001 C CNN
 F 3 "~" H 10600 6850 50  0001 C CNN
+F 4 "C17414" H 10600 6850 50  0001 C CNN "Part"
 	1    10600 6850
 	1    0    0    -1  
 $EndComp
@@ -2864,6 +2958,7 @@ F 0 "R20" V 10443 9600 50  0000 C CNN
 F 1 "10k" V 10534 9600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10580 9600 50  0001 C CNN
 F 3 "~" H 10650 9600 50  0001 C CNN
+F 4 "C17414" H 10650 9600 50  0001 C CNN "Part"
 	1    10650 9600
 	1    0    0    -1  
 $EndComp
@@ -2895,6 +2990,7 @@ F 0 "C31" H 15115 6046 50  0000 L CNN
 F 1 "100n" H 15115 5955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 15038 5850 50  0001 C CNN
 F 3 "~" H 15000 6000 50  0001 C CNN
+F 4 "C49678" H 15000 6000 50  0001 C CNN "Part"
 	1    15000 6000
 	1    0    0    -1  
 $EndComp
@@ -2937,6 +3033,7 @@ F 0 "C32" H 15165 8796 50  0000 L CNN
 F 1 "100n" H 15165 8705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 15088 8600 50  0001 C CNN
 F 3 "~" H 15050 8750 50  0001 C CNN
+F 4 "C49678" H 15050 8750 50  0001 C CNN "Part"
 	1    15050 8750
 	1    0    0    -1  
 $EndComp
@@ -2979,6 +3076,7 @@ F 0 "R21" V 10493 12250 50  0000 C CNN
 F 1 "10k" V 10584 12250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10630 12250 50  0001 C CNN
 F 3 "~" H 10700 12250 50  0001 C CNN
+F 4 "C17414" H 10700 12250 50  0001 C CNN "Part"
 	1    10700 12250
 	1    0    0    -1  
 $EndComp
@@ -2990,8 +3088,9 @@ U 1 1 60E6F7C4
 P 15500 11400
 F 0 "C39" H 15615 11446 50  0000 L CNN
 F 1 "470u" H 15615 11355 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 15538 11250 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 15538 11250 50  0001 C CNN
 F 3 "~" H 15500 11400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/nichicon/UFW1C471MPD/1964109" H 15500 11400 50  0001 C CNN "note"
 	1    15500 11400
 	1    0    0    -1  
 $EndComp
@@ -3014,6 +3113,7 @@ F 0 "C33" H 15215 11446 50  0000 L CNN
 F 1 "100n" H 15215 11355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 15138 11250 50  0001 C CNN
 F 3 "~" H 15100 11400 50  0001 C CNN
+F 4 "C49678" H 15100 11400 50  0001 C CNN "Part"
 	1    15100 11400
 	1    0    0    -1  
 $EndComp
@@ -3059,6 +3159,7 @@ F 0 "R22" V 10493 15100 50  0000 C CNN
 F 1 "10k" V 10584 15100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10630 15100 50  0001 C CNN
 F 3 "~" H 10700 15100 50  0001 C CNN
+F 4 "C17414" H 10700 15100 50  0001 C CNN "Part"
 	1    10700 15100
 	1    0    0    -1  
 $EndComp
@@ -3070,8 +3171,9 @@ U 1 1 610751FA
 P 15500 14250
 F 0 "C40" H 15615 14296 50  0000 L CNN
 F 1 "470u" H 15615 14205 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 15538 14100 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 15538 14100 50  0001 C CNN
 F 3 "~" H 15500 14250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/nichicon/UFW1C471MPD/1964109" H 15500 14250 50  0001 C CNN "note"
 	1    15500 14250
 	1    0    0    -1  
 $EndComp
@@ -3094,6 +3196,7 @@ F 0 "C34" H 15215 14296 50  0000 L CNN
 F 1 "100n" H 15215 14205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 15138 14100 50  0001 C CNN
 F 3 "~" H 15100 14250 50  0001 C CNN
+F 4 "C49678" H 15100 14250 50  0001 C CNN "Part"
 	1    15100 14250
 	1    0    0    -1  
 $EndComp
@@ -3122,8 +3225,9 @@ U 1 1 61117EB4
 P 21350 6000
 F 0 "C58" H 21465 6046 50  0000 L CNN
 F 1 "470u" H 21465 5955 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 21388 5850 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 21388 5850 50  0001 C CNN
 F 3 "~" H 21350 6000 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/nichicon/UFW1C471MPD/1964109" H 21350 6000 50  0001 C CNN "note"
 	1    21350 6000
 	1    0    0    -1  
 $EndComp
@@ -3149,6 +3253,7 @@ F 0 "C55" H 21065 6046 50  0000 L CNN
 F 1 "100n" H 21065 5955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 20988 5850 50  0001 C CNN
 F 3 "~" H 20950 6000 50  0001 C CNN
+F 4 "C49678" H 20950 6000 50  0001 C CNN "Part"
 	1    20950 6000
 	1    0    0    -1  
 $EndComp
@@ -3176,6 +3281,7 @@ F 0 "R37" V 16443 6850 50  0000 C CNN
 F 1 "10k" V 16534 6850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 16580 6850 50  0001 C CNN
 F 3 "~" H 16650 6850 50  0001 C CNN
+F 4 "C17414" H 16650 6850 50  0001 C CNN "Part"
 	1    16650 6850
 	1    0    0    -1  
 $EndComp
@@ -3204,6 +3310,7 @@ F 0 "R39" V 16543 9650 50  0000 C CNN
 F 1 "10k" V 16634 9650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 16680 9650 50  0001 C CNN
 F 3 "~" H 16750 9650 50  0001 C CNN
+F 4 "C17414" H 16750 9650 50  0001 C CNN "Part"
 	1    16750 9650
 	1    0    0    -1  
 $EndComp
@@ -3230,8 +3337,9 @@ U 1 1 612DA707
 P 21450 8800
 F 0 "C59" H 21565 8846 50  0000 L CNN
 F 1 "470u" H 21565 8755 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 21488 8650 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 21488 8650 50  0001 C CNN
 F 3 "~" H 21450 8800 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/nichicon/UFW1C471MPD/1964109" H 21450 8800 50  0001 C CNN "note"
 	1    21450 8800
 	1    0    0    -1  
 $EndComp
@@ -3254,6 +3362,7 @@ F 0 "C56" H 21165 8846 50  0000 L CNN
 F 1 "100n" H 21165 8755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 21088 8650 50  0001 C CNN
 F 3 "~" H 21050 8800 50  0001 C CNN
+F 4 "C49678" H 21050 8800 50  0001 C CNN "Part"
 	1    21050 8800
 	1    0    0    -1  
 $EndComp
@@ -3284,6 +3393,7 @@ F 0 "R38" V 16493 12700 50  0000 C CNN
 F 1 "10k" V 16584 12700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 16630 12700 50  0001 C CNN
 F 3 "~" H 16700 12700 50  0001 C CNN
+F 4 "C17414" H 16700 12700 50  0001 C CNN "Part"
 	1    16700 12700
 	1    0    0    -1  
 $EndComp
@@ -3310,8 +3420,9 @@ U 1 1 615481D8
 P 21500 11900
 F 0 "C60" H 21615 11946 50  0000 L CNN
 F 1 "470u" H 21615 11855 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 21538 11750 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 21538 11750 50  0001 C CNN
 F 3 "~" H 21500 11900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/nichicon/UFW1C471MPD/1964109" H 21500 11900 50  0001 C CNN "note"
 	1    21500 11900
 	1    0    0    -1  
 $EndComp
@@ -3334,6 +3445,7 @@ F 0 "C57" H 21215 11946 50  0000 L CNN
 F 1 "100n" H 21215 11855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 21138 11750 50  0001 C CNN
 F 3 "~" H 21100 11900 50  0001 C CNN
+F 4 "C49678" H 21100 11900 50  0001 C CNN "Part"
 	1    21100 11900
 	1    0    0    -1  
 $EndComp
@@ -3364,6 +3476,7 @@ F 0 "J8" H 11330 1492 50  0000 L CNN
 F 1 "Conn_Solar_1" H 11330 1401 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 11250 1500 50  0001 C CNN
 F 3 "~" H 11250 1500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045" H 11250 1500 50  0001 C CNN "note"
 	1    11250 1500
 	-1   0    0    1   
 $EndComp
@@ -3375,6 +3488,7 @@ F 0 "J9" H 11330 1892 50  0000 L CNN
 F 1 "Conn_Solar_2" H 11330 1801 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 11250 1900 50  0001 C CNN
 F 3 "~" H 11250 1900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045" H 11250 1900 50  0001 C CNN "note"
 	1    11250 1900
 	-1   0    0    1   
 $EndComp
@@ -3386,6 +3500,7 @@ F 0 "J10" H 11330 2292 50  0000 L CNN
 F 1 "Conn_Solar_3" H 11330 2201 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 11250 2300 50  0001 C CNN
 F 3 "~" H 11250 2300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045" H 11250 2300 50  0001 C CNN "note"
 	1    11250 2300
 	-1   0    0    1   
 $EndComp
@@ -3469,6 +3584,7 @@ F 0 "J11" H 11330 2692 50  0000 L CNN
 F 1 "Conn_Solar_4" H 11330 2601 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 11250 2700 50  0001 C CNN
 F 3 "~" H 11250 2700 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045" H 11250 2700 50  0001 C CNN "note"
 	1    11250 2700
 	-1   0    0    1   
 $EndComp
@@ -3494,17 +3610,6 @@ Connection ~ 20000 11500
 Connection ~ 20800 5850
 Connection ~ 20900 8650
 Connection ~ 20950 11750
-$Comp
-L power:GND #PWR015
-U 1 1 5FCFC7BA
-P 3500 7000
-F 0 "#PWR015" H 3500 6750 50  0001 C CNN
-F 1 "GND" H 3505 6827 50  0000 C CNN
-F 2 "" H 3500 7000 50  0001 C CNN
-F 3 "" H 3500 7000 50  0001 C CNN
-	1    3500 7000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 6200 4100 6200
 Wire Wire Line
@@ -3521,6 +3626,7 @@ F 0 "C7" H 4715 6396 50  0000 L CNN
 F 1 "1u" H 4715 6305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4638 6200 50  0001 C CNN
 F 3 "~" H 4600 6350 50  0001 C CNN
+F 4 "C28323" H 4600 6350 50  0001 C CNN "Part"
 	1    4600 6350
 	1    0    0    -1  
 $EndComp
@@ -3546,17 +3652,6 @@ Text GLabel 2800 6200 0    50   Input ~ 0
 ALCC
 Text Notes 3200 5850 0    50   ~ 0
 Address 1100100
-$Comp
-L Transistor_FET:IRF7607PBF Q2
-U 1 1 608EDF08
-P 1700 8500
-F 0 "Q2" H 1904 8546 50  0000 L CNN
-F 1 "IRF7607PBF" H 1904 8455 50  0000 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 1900 8425 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf7607pbf.pdf" V 1700 8500 50  0001 L CNN
-	1    1700 8500
-	1    0    0    -1  
-$EndComp
 Connection ~ 4100 6600
 $Comp
 L Connector_Generic:Conn_01x02 J3
@@ -3566,18 +3661,19 @@ F 0 "J3" H 4380 8292 50  0000 L CNN
 F 1 "Conn_Batt2" H 4380 8201 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 4300 8300 50  0001 C CNN
 F 3 "~" H 4300 8300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/molex/0430450212/252502" H 4300 8300 50  0001 C CNN "note"
 	1    4300 8300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR020
 U 1 1 6087EB32
-P 4100 9000
-F 0 "#PWR020" H 4100 8750 50  0001 C CNN
-F 1 "GND" H 4105 8827 50  0000 C CNN
-F 2 "" H 4100 9000 50  0001 C CNN
-F 3 "" H 4100 9000 50  0001 C CNN
-	1    4100 9000
+P 4100 9500
+F 0 "#PWR020" H 4100 9250 50  0001 C CNN
+F 1 "GND" H 4105 9327 50  0000 C CNN
+F 2 "" H 4100 9500 50  0001 C CNN
+F 3 "" H 4100 9500 50  0001 C CNN
+	1    4100 9500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3588,40 +3684,12 @@ F 0 "J2" H 4380 7442 50  0000 L CNN
 F 1 "Conn_Batt1" H 4380 7351 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 4300 7450 50  0001 C CNN
 F 3 "~" H 4300 7450 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/molex/0430450212/252502" H 4300 7450 50  0001 C CNN "note"
 	1    4300 7450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 7300 4100 7450
-Wire Wire Line
-	4100 6600 4100 7300
-Connection ~ 4100 7300
-$Comp
-L Transistor_FET:IRF7606PBF Q3
-U 1 1 608EC30A
-P 2600 7500
-F 0 "Q3" H 2804 7546 50  0000 L CNN
-F 1 "IRF7606PBF" H 2804 7455 50  0000 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 2800 7425 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf7606pbf.pdf" V 2600 7500 50  0001 L CNN
-	1    2600 7500
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	2700 7300 4100 7300
-Wire Wire Line
 	3500 6900 3500 7000
-$Comp
-L HS2_Parts:LTC2943 U2
-U 1 1 5FCBD0BC
-P 3500 6450
-F 0 "U2" H 3642 6965 50  0000 C CNN
-F 1 "LTC2943" H 3642 6874 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 3400 6500 50  0001 C CNN
-F 3 "" H 3400 6500 50  0001 C CNN
-	1    3500 6450
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R12
 U 1 1 5FCFEA46
@@ -3630,30 +3698,9 @@ F 0 "R12" H 4170 6446 50  0000 L CNN
 F 1 "5m" H 4170 6355 50  0000 L CNN
 F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 4030 6400 50  0001 C CNN
 F 3 "~" H 4100 6400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/delta-electronics-cyntec/VSRP2512S1-R050J/9762091" H 4100 6400 50  0001 C CNN "note"
 	1    4100 6400
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 60919CF7
-P 2700 7850
-F 0 "R6" H 2770 7896 50  0000 L CNN
-F 1 "47" H 2770 7805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2630 7850 50  0001 C CNN
-F 3 "~" H 2700 7850 50  0001 C CNN
-	1    2700 7850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 60925D68
-P 2550 7300
-F 0 "R3" V 2343 7300 50  0000 C CNN
-F 1 "10k" V 2434 7300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2480 7300 50  0001 C CNN
-F 3 "~" H 2550 7300 50  0001 C CNN
-	1    2550 7300
-	0    1    1    0   
 $EndComp
 Text GLabel 4100 8000 2    50   Input ~ 0
 BATT1
@@ -3667,136 +3714,58 @@ Text GLabel 5800 7250 0    50   Input ~ 0
 BAL1
 Text GLabel 5800 7350 0    50   Input ~ 0
 BAL2
-Text GLabel 1500 7500 0    50   Input ~ 0
-BAL1
-Text GLabel 1500 8500 0    50   Input ~ 0
+Text GLabel 1600 8550 0    50   Input ~ 0
 BAL2
 Text Notes 5100 7950 0    50   ~ 0
 External MCU monitors battery voltages\nWhen balancing necessary, turn on BAL1 or BAL2
-Connection ~ 2700 7300
-Wire Wire Line
-	2400 7300 2400 7500
-Wire Wire Line
-	4100 7550 4100 8000
-Wire Wire Line
-	4100 8000 2700 8000
-Connection ~ 4100 8000
-Wire Wire Line
-	4100 8000 4100 8300
-$Comp
-L Transistor_FET:IRF7606PBF Q4
-U 1 1 6095EB30
-P 2600 8500
-F 0 "Q4" H 2804 8546 50  0000 L CNN
-F 1 "IRF7606PBF" H 2804 8455 50  0000 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 2800 8425 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf7606pbf.pdf" V 2600 8500 50  0001 L CNN
-	1    2600 8500
-	1    0    0    1   
-$EndComp
 $Comp
 L Device:R R7
 U 1 1 6095EB37
-P 2700 8850
-F 0 "R7" H 2770 8896 50  0000 L CNN
-F 1 "47" H 2770 8805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2630 8850 50  0001 C CNN
-F 3 "~" H 2700 8850 50  0001 C CNN
-	1    2700 8850
+P 3050 9350
+F 0 "R7" H 3120 9396 50  0000 L CNN
+F 1 "47" H 3120 9305 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 2980 9350 50  0001 C CNN
+F 3 "~" H 3050 9350 50  0001 C CNN
+F 4 "" H 3050 9350 50  0001 C CNN "Part"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF2512JT47R0/1756963" H 3050 9350 50  0001 C CNN "note"
+	1    3050 9350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R4
 U 1 1 6095EB3D
-P 2550 8300
-F 0 "R4" V 2343 8300 50  0000 C CNN
-F 1 "10k" V 2434 8300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2480 8300 50  0001 C CNN
-F 3 "~" H 2550 8300 50  0001 C CNN
-	1    2550 8300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2400 8300 2400 8500
-Wire Wire Line
-	4100 9000 2700 9000
-Wire Wire Line
-	4100 8400 4100 9000
-Connection ~ 4100 9000
-Wire Wire Line
-	2700 8300 2700 8000
-Connection ~ 2700 8300
-Connection ~ 2700 8000
-$Comp
-L Transistor_FET:IRF7607PBF Q1
-U 1 1 60966E8B
-P 1700 7500
-F 0 "Q1" H 1904 7546 50  0000 L CNN
-F 1 "IRF7607PBF" H 1904 7455 50  0000 L CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 1900 7425 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf7607pbf.pdf" V 1700 7500 50  0001 L CNN
-	1    1700 7500
+P 1300 9200
+F 0 "R4" V 1093 9200 50  0000 C CNN
+F 1 "10k" V 1184 9200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1230 9200 50  0001 C CNN
+F 3 "~" H 1300 9200 50  0001 C CNN
+F 4 "C17414" H 1300 9200 50  0001 C CNN "Part"
+	1    1300 9200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 7300 2400 7300
-Connection ~ 2400 7300
-Wire Wire Line
-	1800 8300 2400 8300
-Connection ~ 2400 8300
 $Comp
 L Device:R R2
 U 1 1 6096D9A8
-P 1650 8700
-F 0 "R2" V 1857 8700 50  0000 C CNN
-F 1 "10k" V 1766 8700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1580 8700 50  0001 C CNN
-F 3 "~" H 1650 8700 50  0001 C CNN
-	1    1650 8700
+P 1750 8550
+F 0 "R2" V 1957 8550 50  0000 C CNN
+F 1 "10k" V 1866 8550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1680 8550 50  0001 C CNN
+F 3 "~" H 1750 8550 50  0001 C CNN
+F 4 "C17414" H 1750 8550 50  0001 C CNN "Part"
+	1    1750 8550
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R1
-U 1 1 6096E189
-P 1650 7700
-F 0 "R1" V 1857 7700 50  0000 C CNN
-F 1 "10k" V 1766 7700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1580 7700 50  0001 C CNN
-F 3 "~" H 1650 7700 50  0001 C CNN
-	1    1650 7700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1500 7700 1500 7500
-Wire Wire Line
-	1500 8700 1500 8500
 $Comp
 L power:GND #PWR03
 U 1 1 60971AAC
-P 1800 9000
-F 0 "#PWR03" H 1800 8750 50  0001 C CNN
-F 1 "GND" H 1805 8827 50  0000 C CNN
-F 2 "" H 1800 9000 50  0001 C CNN
-F 3 "" H 1800 9000 50  0001 C CNN
-	1    1800 9000
+P 2850 8550
+F 0 "#PWR03" H 2850 8300 50  0001 C CNN
+F 1 "GND" H 2855 8377 50  0000 C CNN
+F 2 "" H 2850 8550 50  0001 C CNN
+F 3 "" H 2850 8550 50  0001 C CNN
+	1    2850 8550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 9000 1800 8700
-Connection ~ 1800 8700
-$Comp
-L power:GND #PWR02
-U 1 1 609734F5
-P 1800 8000
-F 0 "#PWR02" H 1800 7750 50  0001 C CNN
-F 1 "GND" H 1805 7827 50  0000 C CNN
-F 2 "" H 1800 8000 50  0001 C CNN
-F 3 "" H 1800 8000 50  0001 C CNN
-	1    1800 8000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 8000 1800 7700
 Text GLabel 6700 6300 2    50   Input ~ 0
 ALCC
 $Comp
@@ -3807,6 +3776,7 @@ F 0 "R8" H 2870 5946 50  0000 L CNN
 F 1 "10k" H 2870 5855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2730 5900 50  0001 C CNN
 F 3 "~" H 2800 5900 50  0001 C CNN
+F 4 "C17414" H 2800 5900 50  0001 C CNN "Part"
 	1    2800 5900
 	1    0    0    -1  
 $EndComp
@@ -3839,7 +3809,6 @@ $EndComp
 Wire Wire Line
 	4600 6200 5150 6200
 Connection ~ 4600 6200
-Connection ~ 1800 7700
 $Comp
 L power:GND #PWR021
 U 1 1 609224F7
@@ -3877,6 +3846,7 @@ F 0 "C5" H 4191 1446 50  0000 L CNN
 F 1 "22u" H 4191 1355 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4100 1400 50  0001 C CNN
 F 3 "~" H 4100 1400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ECE-A1HKA220I/6109484" H 4100 1400 50  0001 C CNN "note"
 	1    4100 1400
 	1    0    0    -1  
 $EndComp
@@ -3888,6 +3858,7 @@ F 0 "C4" H 3742 1446 50  0000 L CNN
 F 1 "4.7u" H 3742 1355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3650 1400 50  0001 C CNN
 F 3 "~" H 3650 1400 50  0001 C CNN
+F 4 "C1779" H 3650 1400 50  0001 C CNN "Part"
 	1    3650 1400
 	1    0    0    -1  
 $EndComp
@@ -3948,6 +3919,7 @@ F 0 "C3" V 3021 2850 50  0000 C CNN
 F 1 "1u" V 3112 2850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3250 2850 50  0001 C CNN
 F 3 "~" H 3250 2850 50  0001 C CNN
+F 4 "C28323" H 3250 2850 50  0001 C CNN "Part"
 	1    3250 2850
 	-1   0    0    1   
 $EndComp
@@ -3970,6 +3942,7 @@ F 0 "R10" V 3450 3100 50  0000 C CNN
 F 1 "60.4k" V 3600 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3500 3150 50  0001 C CNN
 F 3 "~" H 3500 3150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-6ENF6042V/111628" H 3500 3150 50  0001 C CNN "note"
 	1    3500 3150
 	0    1    1    0   
 $EndComp
@@ -3992,6 +3965,7 @@ F 0 "C6" V 4321 2350 50  0000 C CNN
 F 1 ".1u" V 4412 2350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4550 2350 50  0001 C CNN
 F 3 "~" H 4550 2350 50  0001 C CNN
+F 4 "C49678" H 4550 2350 50  0001 C CNN "Part"
 	1    4550 2350
 	0    1    1    0   
 $EndComp
@@ -4003,6 +3977,7 @@ F 0 "L1" H 4950 2665 50  0000 C CNN
 F 1 "4.7u" H 4950 2574 50  0000 C CNN
 F 2 "HS2_parts:BWVS00606045" H 4950 2450 50  0001 C CNN
 F 3 "~" H 4950 2450 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/chilisin-electronics/BWVS006060454R7ML1/12141053" H 4950 2450 50  0001 C CNN "note"
 	1    4950 2450
 	1    0    0    -1  
 $EndComp
@@ -4021,6 +3996,7 @@ F 0 "C8" H 4942 2696 50  0000 L CNN
 F 1 "1u" H 4942 2605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4850 2650 50  0001 C CNN
 F 3 "~" H 4850 2650 50  0001 C CNN
+F 4 "C28323" H 4850 2650 50  0001 C CNN "Part"
 	1    4850 2650
 	1    0    0    -1  
 $EndComp
@@ -4041,6 +4017,7 @@ F 0 "R15" V 5204 2450 50  0000 C CNN
 F 1 "50m" V 5295 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" H 5400 2450 50  0001 C CNN
 F 3 "~" H 5400 2450 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/delta-electronics-cyntec/VSRP2512S1-R050J/9762091" H 5400 2450 50  0001 C CNN "note"
 	1    5400 2450
 	0    1    1    0   
 $EndComp
@@ -4055,6 +4032,7 @@ F 0 "C10" H 5558 2504 50  0000 R CNN
 F 1 "10u" H 5558 2595 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5650 2550 50  0001 C CNN
 F 3 "~" H 5650 2550 50  0001 C CNN
+F 4 "C15850" H 5650 2550 50  0001 C CNN "Part"
 	1    5650 2550
 	-1   0    0    1   
 $EndComp
@@ -4080,6 +4058,7 @@ F 0 "D4" H 5900 2233 50  0000 C CNN
 F 1 "D_Schottky" H 5900 2324 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-128" H 5900 2450 50  0001 C CNN
 F 3 "~" H 5900 2450 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RB050LAM-30TR/10414240" H 5900 2450 50  0001 C CNN "note"
 	1    5900 2450
 	-1   0    0    1   
 $EndComp
@@ -4103,9 +4082,10 @@ L Device:R_Small R13
 U 1 1 60922588
 P 4600 3050
 F 0 "R13" H 4541 3004 50  0000 R CNN
-F 1 "172k" H 4541 3095 50  0000 R CNN
+F 1 "150k" H 4541 3095 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4600 3050 50  0001 C CNN
 F 3 "~" H 4600 3050 50  0001 C CNN
+F 4 "C17470" H 4600 3050 50  0001 C CNN "Part"
 	1    4600 3050
 	-1   0    0    1   
 $EndComp
@@ -4119,6 +4099,7 @@ F 0 "R14" V 5196 2950 50  0000 C CNN
 F 1 "1Meg" V 5105 2950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5000 2950 50  0001 C CNN
 F 3 "~" H 5000 2950 50  0001 C CNN
+F 4 "C17514" H 5000 2950 50  0001 C CNN "Part"
 	1    5000 2950
 	0    -1   -1   0   
 $EndComp
@@ -4133,6 +4114,7 @@ F 0 "C9" V 5229 3200 50  0000 C CNN
 F 1 "10p" V 5138 3200 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5000 3200 50  0001 C CNN
 F 3 "~" H 5000 3200 50  0001 C CNN
+F 4 "C1785" H 5000 3200 50  0001 C CNN "Part"
 	1    5000 3200
 	0    -1   -1   0   
 $EndComp
@@ -4168,6 +4150,7 @@ F 0 "R5" V 2454 3050 50  0000 C CNN
 F 1 "6.2k" V 2545 3050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2650 3050 50  0001 C CNN
 F 3 "~" H 2650 3050 50  0001 C CNN
+F 4 "C17767" H 2650 3050 50  0001 C CNN "Part"
 	1    2650 3050
 	0    1    1    0   
 $EndComp
@@ -4186,6 +4169,7 @@ F 0 "R9" H 2891 2904 50  0000 R CNN
 F 1 "309k" H 2891 2995 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 2950 2950 50  0001 C CNN
 F 3 "~" H 2950 2950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD3093F/10234258" H 2950 2950 50  0001 C CNN "note"
 	1    2950 2950
 	-1   0    0    1   
 $EndComp
@@ -4210,6 +4194,7 @@ F 0 "R18" V 8807 2450 50  0000 C CNN
 F 1 "2m" V 8716 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8530 2450 50  0001 C CNN
 F 3 "~" H 8600 2450 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/rohm-semiconductor/PMR10EZPFV2L00/2080250" H 8600 2450 50  0001 C CNN "note"
 	1    8600 2450
 	0    -1   -1   0   
 $EndComp
@@ -4221,6 +4206,7 @@ F 0 "C11" H 6615 2946 50  0000 L CNN
 F 1 "10u" H 6615 2855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6538 2750 50  0001 C CNN
 F 3 "~" H 6500 2900 50  0001 C CNN
+F 4 "C15850" H 6500 2900 50  0001 C CNN "Part"
 	1    6500 2900
 	1    0    0    -1  
 $EndComp
@@ -4232,6 +4218,7 @@ F 0 "C12" H 6915 2946 50  0000 L CNN
 F 1 "100n" H 6915 2855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6838 2750 50  0001 C CNN
 F 3 "~" H 6800 2900 50  0001 C CNN
+F 4 "C49678" H 6800 2900 50  0001 C CNN "Part"
 	1    6800 2900
 	1    0    0    -1  
 $EndComp
@@ -4262,6 +4249,7 @@ F 0 "J1" H 3030 1342 50  0000 L CNN
 F 1 "Screw_Panel" H 3030 1251 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" H 2950 1350 50  0001 C CNN
 F 3 "~" H 2950 1350 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/phoenix-contact/1935161/568614" H 2950 1350 50  0001 C CNN "note"
 	1    2950 1350
 	-1   0    0    1   
 $EndComp
@@ -4313,6 +4301,7 @@ F 0 "U5" H 8050 3831 50  0000 C CNN
 F 1 "INA219BxD" H 8050 3740 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8850 2900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 8400 3150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/texas-instruments/INA219BIDR/2426057" H 8050 3250 50  0001 C CNN "note"
 	1    8050 3250
 	-1   0    0    -1  
 $EndComp
@@ -4401,7 +4390,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 4500 5450 4500
 $Comp
-L HS2_Parts:AD5259BRMZ100 U1
+L eps-rescue:AD5259BRMZ100-HS2_Parts U1
 U 1 1 60922654
 P 1950 3150
 F 0 "U1" H 1950 3817 50  0000 C CNN
@@ -4409,6 +4398,7 @@ F 1 "AD5259BRMZ100" H 1950 3726 50  0000 C CNN
 F 2 "HS2_parts:SOP50P490X95-10N" H 1950 3150 50  0001 L BNN
 F 3 "" H 1950 3150 50  0001 L BNN
 F 4 "Analog devices" H 1950 3150 50  0001 L BNN "MANUFACTURER"
+F 5 "https://www.digikey.com/en/products/detail/analog-devices-inc/AD5259BRMZ100/764273" H 1950 3150 50  0001 C CNN "note"
 	1    1950 3150
 	1    0    0    -1  
 $EndComp
@@ -4464,6 +4454,7 @@ F 0 "C2" H 2742 2146 50  0000 L CNN
 F 1 "0.1u" H 2742 2055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2650 2100 50  0001 C CNN
 F 3 "~" H 2650 2100 50  0001 C CNN
+F 4 "C49678" H 2650 2100 50  0001 C CNN "Part"
 	1    2650 2100
 	1    0    0    -1  
 $EndComp
@@ -4475,6 +4466,7 @@ F 0 "C1" H 2442 2146 50  0000 L CNN
 F 1 "10u" H 2442 2055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2350 2100 50  0001 C CNN
 F 3 "~" H 2350 2100 50  0001 C CNN
+F 4 "C15850" H 2350 2100 50  0001 C CNN "Part"
 	1    2350 2100
 	1    0    0    -1  
 $EndComp
@@ -4528,6 +4520,7 @@ F 0 "D1" H 2950 3666 50  0000 C CNN
 F 1 "BAV99" H 2950 3575 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2950 2950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2950 3450 50  0001 C CNN
+F 4 "C2500" H 2950 3450 50  0001 C CNN "Part"
 	1    2950 3450
 	0    1    1    0   
 $EndComp
@@ -4539,6 +4532,7 @@ F 0 "D2" H 2950 4266 50  0000 C CNN
 F 1 "BAV99" H 2950 4175 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2950 3550 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 2950 4050 50  0001 C CNN
+F 4 "C2500" H 2950 4050 50  0001 C CNN "Part"
 	1    2950 4050
 	0    1    1    0   
 $EndComp
@@ -4593,6 +4587,7 @@ F 0 "J5" H 4868 3975 50  0000 C CNN
 F 1 "Conn_MPPT" H 4868 4066 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 4950 4400 50  0001 C CNN
 F 3 "~" H 4950 4400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A-LF-SN/1651047" H 4950 4400 50  0001 C CNN "note"
 	1    4950 4400
 	-1   0    0    1   
 $EndComp
@@ -4649,6 +4644,7 @@ F 0 "J23" H 22130 2142 50  0000 L CNN
 F 1 "Conn_Pwr2" H 22130 2051 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 22050 2150 50  0001 C CNN
 F 3 "~" H 22050 2150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/molex/0430450212/252502" H 22050 2150 50  0001 C CNN "note"
 	1    22050 2150
 	1    0    0    -1  
 $EndComp
@@ -4660,6 +4656,7 @@ F 0 "J18" H 21230 2142 50  0000 L CNN
 F 1 "Conn_Zone2" H 21230 2051 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 21150 2150 50  0001 C CNN
 F 3 "~" H 21150 2150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A-LF-SN/1651047" H 21150 2150 50  0001 C CNN "note"
 	1    21150 2150
 	1    0    0    -1  
 $EndComp
@@ -4727,6 +4724,7 @@ F 0 "J22" H 22130 1342 50  0000 L CNN
 F 1 "Conn_Pwr1" H 22130 1251 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 22050 1350 50  0001 C CNN
 F 3 "~" H 22050 1350 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/molex/0430450212/252502" H 22050 1350 50  0001 C CNN "note"
 	1    22050 1350
 	1    0    0    -1  
 $EndComp
@@ -4738,6 +4736,7 @@ F 0 "J17" H 21230 1342 50  0000 L CNN
 F 1 "Conn_Zone1" H 21230 1251 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 21150 1350 50  0001 C CNN
 F 3 "~" H 21150 1350 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A-LF-SN/1651047" H 21150 1350 50  0001 C CNN "note"
 	1    21150 1350
 	1    0    0    -1  
 $EndComp
@@ -4760,6 +4759,7 @@ F 0 "J6" H 6080 7142 50  0000 L CNN
 F 1 "Conn_Balance" H 6080 7051 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 6000 7150 50  0001 C CNN
 F 3 "~" H 6000 7150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A-LF-SN/1651047" H 6000 7150 50  0001 C CNN "note"
 	1    6000 7150
 	1    0    0    -1  
 $EndComp
@@ -4772,6 +4772,7 @@ F 0 "J4" H 4880 1242 50  0000 L CNN
 F 1 "Conn_Panel" H 4880 1151 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 4800 1250 50  0001 C CNN
 F 3 "~" H 4800 1250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045" H 4800 1250 50  0001 C CNN "note"
 	1    4800 1250
 	1    0    0    -1  
 $EndComp
@@ -4783,6 +4784,7 @@ F 0 "J7" H 6580 6392 50  0000 L CNN
 F 1 "Conn_Alerts" H 6580 6301 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 6500 6400 50  0001 C CNN
 F 3 "~" H 6500 6400 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A-LF-SN/1651045" H 6500 6400 50  0001 C CNN "note"
 	1    6500 6400
 	-1   0    0    1   
 $EndComp
@@ -4814,6 +4816,8 @@ F 0 "H1" H 18800 13996 50  0000 L CNN
 F 1 "MountingHole" H 18800 13905 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 18700 13950 50  0001 C CNN
 F 3 "~" H 18700 13950 50  0001 C CNN
+F 4 "x" H 18700 13950 50  0001 C CNN "Part"
+F 5 "x" H 18700 13950 50  0001 C CNN "note"
 	1    18700 13950
 	1    0    0    -1  
 $EndComp
@@ -4825,6 +4829,8 @@ F 0 "H3" H 19600 13996 50  0000 L CNN
 F 1 "MountingHole" H 19600 13905 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 19500 13950 50  0001 C CNN
 F 3 "~" H 19500 13950 50  0001 C CNN
+F 4 "x" H 19500 13950 50  0001 C CNN "Part"
+F 5 "x" H 19500 13950 50  0001 C CNN "note"
 	1    19500 13950
 	1    0    0    -1  
 $EndComp
@@ -4836,6 +4842,8 @@ F 0 "H2" H 18800 14246 50  0000 L CNN
 F 1 "MountingHole" H 18800 14155 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 18700 14200 50  0001 C CNN
 F 3 "~" H 18700 14200 50  0001 C CNN
+F 4 "x" H 18700 14200 50  0001 C CNN "Part"
+F 5 "x" H 18700 14200 50  0001 C CNN "note"
 	1    18700 14200
 	1    0    0    -1  
 $EndComp
@@ -4847,6 +4855,8 @@ F 0 "H4" H 19600 14246 50  0000 L CNN
 F 1 "MountingHole" H 19600 14155 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 19500 14200 50  0001 C CNN
 F 3 "~" H 19500 14200 50  0001 C CNN
+F 4 "x" H 19500 14200 50  0001 C CNN "Part"
+F 5 "x" H 19500 14200 50  0001 C CNN "note"
 	1    19500 14200
 	1    0    0    -1  
 $EndComp
@@ -4856,8 +4866,9 @@ U 1 1 60D0E7B6
 P 15450 8750
 F 0 "C37" H 15565 8796 50  0000 L CNN
 F 1 "470u" H 15565 8705 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 15488 8600 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 15488 8600 50  0001 C CNN
 F 3 "~" H 15450 8750 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/nichicon/UFW1C471MPD/1964109" H 15450 8750 50  0001 C CNN "note"
 	1    15450 8750
 	1    0    0    -1  
 $EndComp
@@ -4866,16 +4877,208 @@ Wire Wire Line
 Wire Wire Line
 	4650 2450 4450 2450
 $Comp
-L HS2_Parts:LT8611 U3
+L eps-rescue:LT8611-HS2_Parts U3
 U 1 1 609225CF
 P 4100 2750
 F 0 "U3" H 4037 3375 50  0000 C CNN
 F 1 "LT8611" H 4037 3284 50  0000 C CNN
 F 2 "HS2_parts:24-QFN_3x5" H 4300 3250 50  0001 C CNN
 F 3 "" H 4300 3250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/analog-devices-inc/LT8611EUDD-TRPBF/3313412" H 4100 2750 50  0001 C CNN "note"
 	1    4100 2750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3600 3250 3600 3550
+$Comp
+L eps-rescue:AO6608-HS2_Parts U24
+U 1 1 60D30A79
+P 1900 9150
+F 0 "U24" H 2000 9625 50  0000 C CNN
+F 1 "AO6608" H 2000 9534 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 2000 9150 50  0001 C CNN
+F 3 "" H 2000 9150 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO6608/6827213" H 1900 9150 50  0001 C CNN "note"
+	1    1900 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 8900 1600 8550
+Wire Wire Line
+	2600 8550 2600 9050
+Wire Wire Line
+	2600 9050 2400 9050
+Wire Wire Line
+	1900 8550 2600 8550
+Wire Wire Line
+	4100 7550 4100 8000
+Wire Wire Line
+	4100 6600 4100 7050
+Wire Wire Line
+	1600 9200 1600 9450
+Wire Wire Line
+	1600 9450 2800 9450
+Wire Wire Line
+	2800 9450 2800 8900
+Wire Wire Line
+	2800 8900 2400 8900
+Wire Wire Line
+	1600 9050 1300 9050
+Wire Wire Line
+	1300 9450 1300 9350
+Wire Wire Line
+	1300 9450 1600 9450
+Connection ~ 1600 9450
+Wire Wire Line
+	2400 9200 3050 9200
+Wire Wire Line
+	2600 8550 2850 8550
+Connection ~ 2600 8550
+$Comp
+L Device:R R6
+U 1 1 60919CF7
+P 3050 7850
+F 0 "R6" H 3120 7896 50  0000 L CNN
+F 1 "47" H 3120 7805 50  0000 L CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" V 2980 7850 50  0001 C CNN
+F 3 "~" H 3050 7850 50  0001 C CNN
+F 4 "" H 3050 7850 50  0001 C CNN "Part"
+F 5 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF2512JT47R0/1756963" H 3050 7850 50  0001 C CNN "note"
+	1    3050 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60925D68
+P 1250 7700
+F 0 "R3" V 1043 7700 50  0000 C CNN
+F 1 "10k" V 1134 7700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1180 7700 50  0001 C CNN
+F 3 "~" H 1250 7700 50  0001 C CNN
+F 4 "C17414" H 1250 7700 50  0001 C CNN "Part"
+	1    1250 7700
+	1    0    0    -1  
+$EndComp
+Text GLabel 1600 6950 0    50   Input ~ 0
+BAL1
+$Comp
+L Device:R R1
+U 1 1 6096E189
+P 1750 6950
+F 0 "R1" V 1957 6950 50  0000 C CNN
+F 1 "10k" V 1866 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1680 6950 50  0001 C CNN
+F 3 "~" H 1750 6950 50  0001 C CNN
+F 4 "C17414" H 1750 6950 50  0001 C CNN "Part"
+	1    1750 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 609734F5
+P 2800 6950
+F 0 "#PWR02" H 2800 6700 50  0001 C CNN
+F 1 "GND" H 2805 6777 50  0000 C CNN
+F 2 "" H 2800 6950 50  0001 C CNN
+F 3 "" H 2800 6950 50  0001 C CNN
+	1    2800 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L eps-rescue:AO6608-HS2_Parts U23
+U 1 1 60D3322E
+P 1900 7650
+F 0 "U23" H 2000 8125 50  0000 C CNN
+F 1 "AO6608" H 2000 8034 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 2000 7650 50  0001 C CNN
+F 3 "" H 2000 7650 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO6608/6827213" H 1900 7650 50  0001 C CNN "note"
+	1    1900 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 7700 3050 7700
+Wire Wire Line
+	1600 7400 1600 6950
+Wire Wire Line
+	1900 6950 2600 6950
+Wire Wire Line
+	2400 7400 2800 7400
+Wire Wire Line
+	2800 7400 2800 7950
+Wire Wire Line
+	2800 7950 1600 7950
+Wire Wire Line
+	1600 7950 1600 7700
+Wire Wire Line
+	1600 7550 1250 7550
+Wire Wire Line
+	1250 7850 1250 7950
+Wire Wire Line
+	1250 7950 1600 7950
+Connection ~ 1600 7950
+Wire Wire Line
+	2400 7550 2600 7550
+Wire Wire Line
+	2600 7550 2600 6950
+Connection ~ 2600 6950
+Wire Wire Line
+	2600 6950 2800 6950
+$Comp
+L eps-rescue:LTC2943-HS2_Parts U2
+U 1 1 5FCBD0BC
+P 3500 6450
+F 0 "U2" H 3642 6965 50  0000 C CNN
+F 1 "LTC2943" H 3642 6874 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm" H 3400 6500 50  0001 C CNN
+F 3 "" H 3400 6500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/LTC2943CDD%23PBF/LTC2943CDD%23PBF-ND/4488950?itemSeq=348466321" H 3500 6450 50  0001 C CNN "note"
+	1    3500 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5FCFC7BA
+P 3500 7000
+F 0 "#PWR015" H 3500 6750 50  0001 C CNN
+F 1 "GND" H 3505 6827 50  0000 C CNN
+F 2 "" H 3500 7000 50  0001 C CNN
+F 3 "" H 3500 7000 50  0001 C CNN
+	1    3500 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 8000 4100 8000
+Connection ~ 4100 8000
+Wire Wire Line
+	4100 8000 4100 8300
+Wire Wire Line
+	4100 9500 3050 9500
+Wire Wire Line
+	4100 8400 4100 9500
+Connection ~ 4100 9500
+Wire Wire Line
+	3050 8000 3050 8200
+Wire Wire Line
+	3050 8200 1300 8200
+Wire Wire Line
+	1300 8200 1300 9050
+Connection ~ 3050 8000
+Connection ~ 1300 9050
+Wire Wire Line
+	4100 7050 3800 7050
+Wire Wire Line
+	3800 7050 3800 7350
+Wire Wire Line
+	3800 7350 3000 7350
+Wire Wire Line
+	3000 7350 3000 6700
+Wire Wire Line
+	3000 6700 1250 6700
+Wire Wire Line
+	1250 6700 1250 7550
+Connection ~ 4100 7050
+Wire Wire Line
+	4100 7050 4100 7450
+Connection ~ 1250 7550
 $EndSCHEMATC

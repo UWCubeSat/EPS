@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name testlib)(type Legacy)(uri "C:/Users/Andrew/Google Drive/School Stuff/Huskysat/testlib/testlib.lib")(options "")(descr ""))
+  (lib (name eps-rescue)(type Legacy)(uri ${KIPRJMOD}/eps-rescue.lib)(options "")(descr ""))
 )
