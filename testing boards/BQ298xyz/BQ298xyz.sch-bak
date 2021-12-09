@@ -1,0 +1,221 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HS2_Parts:BQ298xyz U?
+U 1 1 61AB326C
+P 4150 3200
+F 0 "U?" H 4500 3425 50  0000 C CNN
+F 1 "BQ298xyz" H 4500 3334 50  0000 C CNN
+F 2 "HS2_parts:BQ298xyz" H 4500 2800 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/bq2982.pdf?ts=1638519129580&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ2982" H 4500 2800 50  0001 C CNN
+	1    4150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L HS2_Parts:DMN3016LFDE U?
+U 1 1 61AB39E8
+P 4700 2300
+F 0 "U?" V 4923 2050 50  0000 C CNN
+F 1 "DMN3016LFDE" V 5014 2050 50  0000 C CNN
+F 2 "HS2_parts:U-DFN2020-6" H 5000 1450 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMN3016LFDE.pdf" H 4900 2800 50  0001 C CNN
+	1    4700 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L HS2_Parts:DMN3016LFDE U?
+U 1 1 61AC6C30
+P 5000 2300
+F 0 "U?" V 5315 2050 50  0000 C CNN
+F 1 "DMN3016LFDE" V 5224 2050 50  0000 C CNN
+F 2 "HS2_parts:U-DFN2020-6" H 5300 1450 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMN3016LFDE.pdf" H 5200 2800 50  0001 C CNN
+	1    5000 2300
+	0    -1   -1   0   
+$EndComp
+Text Label 4400 2050 0    50   ~ 0
+CHG
+Text Label 4850 3200 0    50   ~ 0
+CHG
+Wire Wire Line
+	4700 2300 5000 2300
+Text Label 6200 2300 0    50   ~ 0
+PACK+
+Text Label 6200 3850 0    50   ~ 0
+PACK-
+$Comp
+L device:R_Small R?
+U 1 1 61AC9659
+P 5750 2850
+F 0 "R?" H 5809 2896 50  0000 L CNN
+F 1 "1k" H 5809 2805 50  0000 L CNN
+F 2 "" H 5750 2850 50  0001 C CNN
+F 3 "~" H 5750 2850 50  0001 C CNN
+	1    5750 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3400 5750 3400
+Wire Wire Line
+	5500 2300 5750 2300
+Wire Wire Line
+	5750 3400 5750 2950
+Wire Wire Line
+	5750 2750 5750 2300
+Connection ~ 5750 2300
+Wire Wire Line
+	5750 2300 6200 2300
+$Comp
+L device:R_Small R?
+U 1 1 61ACA8D5
+P 3900 3850
+F 0 "R?" V 4096 3850 50  0000 C CNN
+F 1 "1mOhm" V 4005 3850 50  0000 C CNN
+F 2 "" H 3900 3850 50  0001 C CNN
+F 3 "~" H 3900 3850 50  0001 C CNN
+	1    3900 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 3500 4150 3850
+Wire Wire Line
+	4150 3850 4000 3850
+Connection ~ 4150 3850
+Wire Wire Line
+	4150 3400 3650 3400
+Wire Wire Line
+	3650 3400 3650 3850
+Wire Wire Line
+	3650 3850 3800 3850
+$Comp
+L device:R_Small R?
+U 1 1 61ACB8BB
+P 3450 2850
+F 0 "R?" H 3509 2896 50  0000 L CNN
+F 1 "20" H 3509 2805 50  0000 L CNN
+F 2 "" H 3450 2850 50  0001 C CNN
+F 3 "~" H 3450 2850 50  0001 C CNN
+	1    3450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_Small R?
+U 1 1 61ACC10F
+P 2900 2850
+F 0 "R?" H 2959 2896 50  0000 L CNN
+F 1 "100" H 2959 2805 50  0000 L CNN
+F 2 "" H 2900 2850 50  0001 C CNN
+F 3 "~" H 2900 2850 50  0001 C CNN
+	1    2900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2300 3450 2750
+Wire Wire Line
+	3450 2300 4200 2300
+Wire Wire Line
+	3450 2950 3450 3200
+Wire Wire Line
+	3450 3200 4150 3200
+Wire Wire Line
+	2900 2950 2900 3300
+Wire Wire Line
+	2900 3300 4150 3300
+Wire Wire Line
+	2900 2750 2900 2300
+Wire Wire Line
+	2900 2300 3450 2300
+Connection ~ 3450 2300
+$Comp
+L device:C_Small C?
+U 1 1 61ACD688
+P 2900 3600
+F 0 "C?" H 2992 3646 50  0000 L CNN
+F 1 "0.1uF" H 2992 3555 50  0000 L CNN
+F 2 "" H 2900 3600 50  0001 C CNN
+F 3 "~" H 2900 3600 50  0001 C CNN
+	1    2900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 3300 2900 3500
+Connection ~ 2900 3300
+Wire Wire Line
+	2900 3700 2900 3850
+Wire Wire Line
+	2900 3850 3650 3850
+Connection ~ 3650 3850
+Wire Wire Line
+	4150 3850 5050 3850
+Wire Wire Line
+	4850 3500 5050 3500
+Wire Wire Line
+	5050 3500 5050 3850
+Connection ~ 5050 3850
+Wire Wire Line
+	5050 3850 6200 3850
+Wire Wire Line
+	4850 3300 5300 3300
+Wire Wire Line
+	5300 3300 5300 2550
+Wire Wire Line
+	2400 2300 2900 2300
+Connection ~ 2900 2300
+Text Label 2400 3850 0    50   ~ 0
+BATT-
+Text Label 2400 2300 0    50   ~ 0
+BATT+
+Wire Wire Line
+	2400 3850 2900 3850
+Connection ~ 2900 3850
+Text Label 1450 3600 0    50   ~ 0
+BATT-
+Text Label 1450 3100 0    50   ~ 0
+BATT+
+Text Label 7050 3250 0    50   ~ 0
+PACK-
+Text Label 7050 3100 0    50   ~ 0
+PACK+
+$Comp
+L HS2_Parts:1048-2S-18650-Holder U?
+U 1 1 61B1A2BD
+P 1000 3200
+F 0 "U?" H 1378 3113 50  0000 L CNN
+F 1 "1048-2S-18650-Holder" H 1378 3022 50  0000 L CNN
+F 2 "" H 1050 3400 50  0001 C CNN
+F 3 "" H 1050 3400 50  0001 C CNN
+	1    1000 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3200 1000 3100
+Wire Wire Line
+	1000 3100 1200 3100
+Wire Wire Line
+	1000 3500 1000 3600
+Wire Wire Line
+	1000 3600 1200 3600
+Wire Wire Line
+	1200 3500 1200 3600
+Connection ~ 1200 3600
+Wire Wire Line
+	1200 3600 1450 3600
+Wire Wire Line
+	1200 3200 1200 3100
+Connection ~ 1200 3100
+Wire Wire Line
+	1200 3100 1450 3100
+$EndSCHEMATC

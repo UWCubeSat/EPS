@@ -1,4 +1,4 @@
-1249467506676964
+1251106111163641
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -2681,6 +2681,13 @@ ADE-3G+
 6
 6
 HS2_parts
+BQ298xyz
+
+
+0
+0
+0
+HS2_parts
 BQ2920x
 
 
@@ -2857,11 +2864,11 @@ TPS24701DGKR
 8
 HS2_parts
 U-DFN2020-6
+Diodes Incorporated Footprint
 
-
 0
-0
-0
+6
+3
 HS2_parts
 USB-C
 https://www.molex.com/pdm_docs/sd/2171790001_sd.pdf
