@@ -1,4 +1,4 @@
-1252745126712903
+1256023462980524
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -2737,6 +2737,13 @@ DIP762W56P254L1772H585Q12
 12
 12
 HS2_parts
+EFC2K103NUZTDG
+https://www.onsemi.com/pdf/datasheet/efc2k103nuz-d.pdf
+
+0
+10
+4
+HS2_parts
 EXTO-H
 
 
@@ -2890,6 +2897,13 @@ SnapEDA: DIP254P762X432-16P
 0
 16
 16
+HS2_parts
+XT30
+
+
+0
+2
+2
 HS2_parts
 logo
 
